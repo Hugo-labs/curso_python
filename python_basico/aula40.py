@@ -1,7 +1,24 @@
-letra = 'aaa'
-qtd_letra = 0
-print(letra.count('a'))
+# for + range
+# range -> range(start, stop, step)
 
-frase = 'O Python é uma linguagem de programação multiparadgma ' \
-        'Python foi criado por Guido Von Rossum.'
+# numeros = range(10)
 
+# for numero in numeros:
+#     print(numero)
+
+# print('Fim')
+
+# for numero in range(10):
+#     print(numero)
+
+# print('Fim')
+
+# for numero in range(0, 100, 2):
+#     print(numero)
+
+# print('Fim')
+
+nome = 'Victor Hugo'
+
+for letra in nome:
+    print(letra)
